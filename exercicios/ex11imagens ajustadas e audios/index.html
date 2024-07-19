@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vaários dispositivos diferentes ou simplesmente aumente e diminua seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/fotop.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/fotom.png" type="image/png">
+        <img src="imagens/fotog.png" alt="fotog">
+    </picture>
+
+    <h1>Reproduzindo audio</h1>
+    <p>vamos aprender a reproduzir audio</p>
+    <!--audio src="midia/nhie.mp3" controls autoplay></audio>
+    <-- se o autoplay n funcionar tente isso-->
+    <h1>tente isso</h1>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/nhie.mp3" type="audio/mpeg">
+    </audio>
+    <p>se nao conseguir baixe aq <a href="midia/nhie.mp3" download="midia/nhie.mp3"> download</a></p>
+</body>
+</html>

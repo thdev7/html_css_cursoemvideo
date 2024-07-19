@@ -1,0 +1,49 @@
+.dv1 {
+    display: inline-block;
+    background-color: lightgrey;
+    border: 1px solid  black;
+    width: 200px;
+    height: 200px;
+}
+.dv2 {
+    display: inline-block;
+    background-color: lightgrey;
+    border: 1px solid  black;
+    width: 200px;
+    height: 200px;
+}
+.dv3 {
+    display: inline-block;
+    background-color: lightgrey;
+    border: 1px solid  black;
+    width: 200px;
+    height: 200px;
+}
+.dv4 {
+    margin-top: 8px;
+    background-color: lightgrey;
+    border: 1px solid  black;
+    width: 200px;
+    height: 200px;
+}
+
+.dv1:hover {
+    background-color: red;
+}
+.dv2:hover {
+    background-color: blue;
+}
+.dv3:hover {
+    background-color: green;
+}
+.dv4:hover {
+    background-color: yellow;
+}
+
+.dv4 > p {
+    text-align: center;
+    display: none;
+}
+.dv4:hover > p {
+    display: block;
+}
