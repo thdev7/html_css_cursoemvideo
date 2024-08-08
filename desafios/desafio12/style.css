@@ -73,18 +73,29 @@ section {
 }
 
 .image {
-    background-color: #505050;
+    background-color: #505050ef;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.493);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .image p {
     display: inline-block;
     padding: 5px;
-    background-color: #0000004f;
+    background-color: #00000063;
+    text-shadow: 1px 1px 1px black;
+}
+
+#img01 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
 }
 
 
-
+#img02{
+    background-image: url(imagens/background002.jpg);
+}
 
 
 
