@@ -27,3 +27,7 @@ thead, tfoot {
 td.num {
     text-align: right;
 }
+
+tbody > tr:nth-child(2n) {
+    background-color: lightgray;
+}
